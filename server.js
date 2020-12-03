@@ -36,7 +36,7 @@ var server = http.createServer(function(request, response){
     <body>
         <h1>标题我我我！</h1>
     </body>
-    </html>git
+    </html>
     `)
     response.end()
   } else if(path === '/style.css'){
